@@ -1,0 +1,40 @@
+.form-group {
+  table-layout: fixed;
+  width: 100%;
+  > tbody > tr {
+    > td.element {
+      padding: 0 4px;
+      > * {
+        margin: 5px 0;
+      }
+    }
+    > td.warning {
+      color: red;
+      margin: 0;
+    }
+    > td.label {
+      padding: 0 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: right;
+      width: 150px;
+      > .required {
+        color: red;
+      }
+    }
+  }
+}
+
+.form-group.vertical {
+  margin: 6px 0;
+  > tbody > tr {
+    > td.label {
+      text-align: left;
+      width: 150px;
+    }
+    > td.element {
+      padding: 0 4px;
+    }
+  }
+}
