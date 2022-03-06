@@ -1,15 +1,15 @@
 import React from "react";
 import { useDrag } from "react-dnd";
 import styled from "styled-components";
-const StyledLi = styled.li `
+const StyledLi = styled.li`
   font-size: 12px;
   box-sizing: border-box;
-  width: 125px;
+  width: 100%;
   display: inline-block;
   cursor: move;
   border: 1px solid #a3a3a3;
-  padding: 5px 10px;
-  margin: 2px;
+  padding: 10px 20px;
+  margin: auto;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
